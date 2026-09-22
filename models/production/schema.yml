@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: mart_education_program
+    description: Airtable-backed monthly education reach and learning outcomes by state and district.
+    columns:
+      - name: id
+        data_tests:
+          - not_null
+          - unique
+      - name: date
+        data_tests:
+          - not_null
+      - name: statename
+        data_tests:
+          - not_null
+      - name: districtname
+        data_tests:
+          - not_null
+      - name: students
+        data_tests:
+          - not_null

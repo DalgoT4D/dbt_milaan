@@ -1,0 +1,35 @@
+version: 2
+sources:
+- name: staging_health
+  schema: staging_health
+  tables:
+  - name: raw_chatbot_interactions
+    identifier: raw_chatbot_interactions
+    description: ''
+  - name: raw_child_dev_tracking
+    identifier: raw_child_dev_tracking
+    description: ''
+  - name: raw_clinic_meetings
+    identifier: raw_clinic_meetings
+    description: ''
+  - name: raw_maternal_risk
+    identifier: raw_maternal_risk
+    description: ''
+  - name: raw_sanitary_dist
+    identifier: raw_sanitary_dist
+    description: ''
+- name: staging_education
+  schema: staging_education
+  tables:
+  - name: edu_raw_classrooms_tblbbORR7VAeBhOdg
+    identifier: edu_raw_classrooms_tblbbORR7VAeBhOdg
+    description: ''
+  - name: edu_raw_students_tbl5xiq6Kk6dY6Wha
+    identifier: edu_raw_students_tbl5xiq6Kk6dY6Wha
+    description: ''
+- name: elementary
+  schema: elementary
+  tables:
+  - name: schema_columns_snapshot
+    identifier: schema_columns_snapshot
+    description: ''
