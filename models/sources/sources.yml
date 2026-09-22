@@ -27,9 +27,9 @@ sources:
   - name: edu_raw_students_tbl5xiq6Kk6dY6Wha
     identifier: edu_raw_students_tbl5xiq6Kk6dY6Wha
     description: ''
-- name: elementary
-  schema: elementary
+- name: bronze
+  schema: bronze
   tables:
-  - name: schema_columns_snapshot
-    identifier: schema_columns_snapshot
+  - name: master_data_gip_30_all_15_blocks_v2
+    identifier: master_data_gip_30_all_15_blocks_v2
     description: ''
