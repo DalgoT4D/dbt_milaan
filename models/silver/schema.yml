@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: geo_master
+    description: Master geographical hierarchy (state > district > block > sector > AWC), one row per Anganwadi Centre.
+    columns:
+      - name: awc_id
+        description: Anganwadi Centre code. Primary key.
+        tests:
+          - unique
+          - not_null
+      - name: awc_name
+      - name: sector_id
+        tests:
+          - not_null
+      - name: sector_name
+      - name: block_id
+        tests:
+          - not_null
+      - name: block_name
+      - name: district_id
+        tests:
+          - not_null
+      - name: district_name
+      - name: state_id
+        tests:
+          - not_null
+      - name: state_name
+      - name: created_at
+        description: Timestamp of the dbt run that built this row.
+      - name: updated_at
+        description: Timestamp of the dbt run that built this row.
+      - name: is_active
+        description: Always true on load; flag for soft-deletes downstream.
