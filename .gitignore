@@ -16,3 +16,4 @@ elementary_profiles/
 edr_target/
 *.duckdb
 *.duckdb.wal
+local/

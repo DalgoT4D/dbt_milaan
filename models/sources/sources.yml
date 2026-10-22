@@ -1,11 +1,77 @@
 version: 2
 sources:
-- name: bronze
-  schema: bronze
+- name: staging
+  schema: staging
   tables:
-  - name: master_data_gip_30_all_15_blocks_v2
-    identifier: master_data_gip_30_all_15_blocks_v2
+  - name: master_geo
+    identifier: master_geo
     description: ''
-  - name: Compile_data
-    identifier: Compile_data
+  - name: bahr_aww_jarwal
+    identifier: bahr_aww_jarwal
+    description: ''
+  - name: bahr_aww_fakharpur
+    identifier: bahr_aww_fakharpur
+    description: ''
+  - name: bahr_aww_chittaura
+    identifier: bahr_aww_chittaura
+    description: ''
+  - name: bahr_aww_payagpur
+    identifier: bahr_aww_payagpur
+    description: ''
+  - name: bahr_aww_visheshwarganj
+    identifier: bahr_aww_visheshwarganj
+    description: ''
+  - name: bahr_aww_huzoorpur
+    identifier: bahr_aww_huzoorpur
+    description: ''
+  - name: bahr_aww_tejwapur
+    identifier: bahr_aww_tejwapur
+    description: ''
+  - name: bahr_aww_risia
+    identifier: bahr_aww_risia
+    description: ''
+  - name: bal_aww_balrampur_dehat
+    identifier: bal_aww_Balrampur_Dehat
+    description: ''
+  - name: bal_aww_gandas_bujarg
+    identifier: bal_aww_Gandas_Bujarg
+    description: ''
+  - name: bal_aww_rehra_bazar
+    identifier: bal_aww_Rehra_Bazar
+    description: ''
+  - name: bal_aww_sriduttganj
+    identifier: bal_aww_Sriduttganj
+    description: ''
+  - name: bal_aww_utraula
+    identifier: bal_aww_Utraula
+    description: ''
+  - name: shraw_aww_ekona
+    identifier: shraw_aww_Ekona
+    description: ''
+  - name: shraw_aww_hariharpur_rani
+    identifier: shraw_aww_Hariharpur_Rani
+    description: ''
+  - name: bahr_aww_att_jarwal
+    identifier: bahr_aww_att_jarwal
+    description: ''
+  - name: bahr_aww_att_fakharpur
+    identifier: bahr_aww_att_fakharpur
+    description: ''
+  - name: bahr_aww_att_chittaura
+    identifier: bahr_aww_att_chittaura
+    description: ''
+  - name: bahr_aww_att_payagpur
+    identifier: bahr_aww_att_payagpur
+    description: ''
+  - name: bahr_aww_att_visheshwar ganj
+    identifier: bahr_aww_att_visheshwar ganj
+    description: ''
+  - name: bahr_aww_att_huzoorpur
+    identifier: bahr_aww_att_huzoorpur
+    description: ''
+  - name: bahr_aww_att_tejwapur
+    identifier: bahr_aww_att_tejwapur
+    description: ''
+  - name: bahr_aww_att_risia
+    identifier: bahr_aww_att_risia
     description: ''

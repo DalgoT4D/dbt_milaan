@@ -13,22 +13,23 @@
 
 {% macro generate_aww_union() %}
 
+{% set aww_data_path = env_var('AWW_DATA_PATH', '/Users/prxgyx/Documents/Milaan_Dalgo_POC/Raw_data/aww') %}
 {% set files = [
-  { "name": "aww_chittaura", "path": "/Users/prxgyx/Downloads/Raw data/aww_chittaura.csv", "missing": [] },
-  { "name": "aww_fakharpur", "path": "/Users/prxgyx/Downloads/Raw data/aww_fakharpur.csv", "missing": ["Economic Status"] },
-  { "name": "aww_huzoorpur", "path": "/Users/prxgyx/Downloads/Raw data/aww_huzoorpur.csv", "missing": [] },
-  { "name": "aww_jarwal", "path": "/Users/prxgyx/Downloads/Raw data/aww_jarwal.csv", "missing": [] },
-  { "name": "aww_payagpur", "path": "/Users/prxgyx/Downloads/Raw data/aww_payagpur.csv", "missing": ["Email Address"] },
-  { "name": "aww_risia", "path": "/Users/prxgyx/Downloads/Raw data/aww_risia.csv", "missing": [] },
-  { "name": "aww_tejwapur", "path": "/Users/prxgyx/Downloads/Raw data/aww_tejwapur.csv", "missing": [] },
-  { "name": "aww_visheshwarganj", "path": "/Users/prxgyx/Downloads/Raw data/aww_visheshwarganj.csv", "missing": [] },
-  { "name": "aww_balrampur_dehat", "path": "/Users/prxgyx/Downloads/Raw data/aww_balrampur_dehat.csv", "missing": [] },
-  { "name": "aww_ekona", "path": "/Users/prxgyx/Downloads/Raw data/aww_ekona.csv", "missing": [] },
-  { "name": "aww_gandas_bujarg", "path": "/Users/prxgyx/Downloads/Raw data/aww_gandas_bujarg.csv", "missing": [] },
-  { "name": "aww_hariharpur_rani", "path": "/Users/prxgyx/Downloads/Raw data/aww_hariharpur_rani.csv", "missing": [] },
-  { "name": "aww_rehra_bazar", "path": "/Users/prxgyx/Downloads/Raw data/aww_rehra_bazar.csv", "missing": [] },
-  { "name": "aww_sriduttganj", "path": "/Users/prxgyx/Downloads/Raw data/aww_sriduttganj.csv", "missing": [] },
-  { "name": "aww_utraula", "path": "/Users/prxgyx/Downloads/Raw data/aww_utraula.csv", "missing": [] },
+  { "name": "aww_chittaura", "path": aww_data_path ~ "/aww_chittaura.csv", "missing": [] },
+  { "name": "aww_fakharpur", "path": aww_data_path ~ "/aww_fakharpur.csv", "missing": ["Economic Status"] },
+  { "name": "aww_huzoorpur", "path": aww_data_path ~ "/aww_huzoorpur.csv", "missing": [] },
+  { "name": "aww_jarwal", "path": aww_data_path ~ "/aww_jarwal.csv", "missing": [] },
+  { "name": "aww_payagpur", "path": aww_data_path ~ "/aww_payagpur.csv", "missing": ["Email Address"] },
+  { "name": "aww_risia", "path": aww_data_path ~ "/aww_risia.csv", "missing": [] },
+  { "name": "aww_tejwapur", "path": aww_data_path ~ "/aww_tejwapur.csv", "missing": [] },
+  { "name": "aww_visheshwarganj", "path": aww_data_path ~ "/aww_visheshwarganj.csv", "missing": [] },
+  { "name": "aww_balrampur_dehat", "path": aww_data_path ~ "/aww_balrampur_dehat.csv", "missing": [] },
+  { "name": "aww_ekona", "path": aww_data_path ~ "/aww_ekona.csv", "missing": [] },
+  { "name": "aww_gandas_bujarg", "path": aww_data_path ~ "/aww_gandas_bujarg.csv", "missing": [] },
+  { "name": "aww_hariharpur_rani", "path": aww_data_path ~ "/aww_hariharpur_rani.csv", "missing": [] },
+  { "name": "aww_rehra_bazar", "path": aww_data_path ~ "/aww_rehra_bazar.csv", "missing": [] },
+  { "name": "aww_sriduttganj", "path": aww_data_path ~ "/aww_sriduttganj.csv", "missing": [] },
+  { "name": "aww_utraula", "path": aww_data_path ~ "/aww_utraula.csv", "missing": [] },
 ] %}
 
 {% for file in files %}

@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: geo_master
-    description: Master geographical hierarchy (state > district > block > sector > AWC), one row per Anganwadi Centre.
+    description: Master geographical hierarchy sourced from staging.master_geo.
     columns:
       - name: awc_id
         description: Anganwadi Centre code. Primary key.
