@@ -31,25 +31,25 @@ sources:
     identifier: bahr_aww_risia
     description: ''
   - name: bal_aww_balrampur_dehat
-    identifier: bal_aww_Balrampur_Dehat
+    identifier: bal_aww_balrampur_dehat
     description: ''
   - name: bal_aww_gandas_bujarg
-    identifier: bal_aww_Gandas_Bujarg
+    identifier: bal_aww_gandas_bujarg
     description: ''
   - name: bal_aww_rehra_bazar
-    identifier: bal_aww_Rehra_Bazar
+    identifier: bal_aww_rehra_bazar
     description: ''
   - name: bal_aww_sriduttganj
-    identifier: bal_aww_Sriduttganj
+    identifier: bal_aww_sriduttganj
     description: ''
   - name: bal_aww_utraula
-    identifier: bal_aww_Utraula
+    identifier: bal_aww_utraula
     description: ''
   - name: shraw_aww_ekona
-    identifier: shraw_aww_Ekona
+    identifier: shraw_aww_ekona
     description: ''
   - name: shraw_aww_hariharpur_rani
-    identifier: shraw_aww_Hariharpur_Rani
+    identifier: shraw_aww_hariharpur_rani
     description: ''
   - name: bahr_aww_att_jarwal
     identifier: bahr_aww_att_jarwal
@@ -63,15 +63,36 @@ sources:
   - name: bahr_aww_att_payagpur
     identifier: bahr_aww_att_payagpur
     description: ''
-  - name: bahr_aww_att_visheshwar ganj
-    identifier: bahr_aww_att_visheshwar ganj
+  - name: bahr_aww_att_visheshwarganj
+    identifier: bahr_aww_att_visheshwarganj
     description: ''
-  - name: bahr_aww_att_huzoorpur
-    identifier: bahr_aww_att_huzoorpur
+  - name: bahr_aww_att_huzurpur
+    identifier: bahr_aww_att_huzurpur
     description: ''
   - name: bahr_aww_att_tejwapur
     identifier: bahr_aww_att_tejwapur
     description: ''
-  - name: bahr_aww_att_risia
-    identifier: bahr_aww_att_risia
+  - name: bahr_aww_att_risiya
+    identifier: bahr_aww_att_risiya
+    description: ''
+  - name: bal_aww_att_balrampur_dehat
+    identifier: bal_aww_att_balrampur_dehat
+    description: ''
+  - name: bal_aww_att_gandas_bujarg
+    identifier: bal_aww_att_gandas_bujarg
+    description: ''
+  - name: bal_aww_att_rehra_bazar
+    identifier: bal_aww_att_rehra_bazar
+    description: ''
+  - name: bal_aww_att_sriduttganj
+    identifier: bal_aww_att_sriduttganj
+    description: ''
+  - name: bal_aww_att_utraula
+    identifier: bal_aww_att_utraula
+    description: ''
+  - name: shraw_aww_att_ekona
+    identifier: shraw_aww_att_ekona
+    description: ''
+  - name: shraw_aww_att_hariharpur_rani
+    identifier: shraw_aww_att_hariharpur_rani
     description: ''
