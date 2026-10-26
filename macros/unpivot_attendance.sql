@@ -8,7 +8,8 @@ SELECT
   "Aaganwadi_CenterCode"::VARCHAR AS awc_id,
   session_id,
   session_date,
-  session_value
+  session_value,
+  '{{ source_name }}' AS source_table
 FROM {{ source('staging', source_name) }}
 CROSS JOIN LATERAL (
   VALUES

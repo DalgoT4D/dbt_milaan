@@ -49,6 +49,7 @@ SELECT
   current_timestamp AS created_at,
   current_timestamp AS updated_at,
   TRUE AS is_active,
+  '{{ src.name }}' AS source_table,
   {{ validate_aww_row() }} AS validation_reason
 FROM {{ source('staging', src.name) }}
 
@@ -57,8 +58,29 @@ FROM {{ source('staging', src.name) }}
 )
 
 SELECT
-  aww_id, awc_id, aww_name, aww_role, sector_id, age, religion, social_category,
-  education, exp_years, economic_status, mobile_no, email_id, onboarded_at,
-  created_at, updated_at, is_active
-FROM all_rows
-WHERE validation_reason IS NULL
+  a.aww_id,
+  a.awc_id,
+  a.aww_name,
+  a.aww_role,
+  a.sector_id,
+  g.sector_name,
+  g.block_id,
+  g.block_name,
+  g.district_id,
+  g.district_name,
+  a.age,
+  a.religion,
+  a.social_category,
+  a.education,
+  a.exp_years,
+  a.economic_status,
+  a.mobile_no,
+  a.email_id,
+  a.source_table,
+  a.onboarded_at,
+  a.created_at,
+  a.updated_at,
+  a.is_active
+FROM all_rows a
+LEFT JOIN {{ ref('geo_master') }} g ON a.awc_id = g.awc_id
+WHERE a.validation_reason IS NULL
