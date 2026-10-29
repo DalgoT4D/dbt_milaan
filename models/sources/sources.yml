@@ -96,3 +96,6 @@ sources:
   - name: shraw_aww_att_hariharpur_rani
     identifier: shraw_aww_att_hariharpur_rani
     description: ''
+  - name: contacts_flat
+    identifier: contacts_flat
+    description: ''
