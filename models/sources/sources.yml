@@ -99,3 +99,27 @@ sources:
   - name: contacts_flat
     identifier: contacts_flat
     description: ''
+  - name: bahr_gi_chittaura
+    identifier: bahr_gi_chittaura
+    description: ''
+  - name: bahr_gi_fakharpur
+    identifier: bahr_gi_fakharpur
+    description: ''
+  - name: bahr_gi_huzurpur
+    identifier: bahr_gi_huzurpur
+    description: ''
+  - name: bahr_gi_jarwal
+    identifier: bahr_gi_jarwal
+    description: ''
+  - name: bahr_gi_payagpur
+    identifier: bahr_gi_payagpur
+    description: ''
+  - name: bahr_gi_risiya
+    identifier: bahr_gi_risiya
+    description: ''
+  - name: bahr_gi_tejwapur
+    identifier: bahr_gi_tejwapur
+    description: ''
+  - name: bahr_gi_visheshwarganj
+    identifier: bahr_gi_visheshwarganj
+    description: ''
